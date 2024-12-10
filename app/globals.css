@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: var(--font-poppins);
+}
+
+body {
+  @apply flex min-h-screen flex-col justify-between overflow-x-hidden bg-slate-900 text-slate-200 antialiased;
+}
+
+a {
+  @apply text-sky-500;
+}
+
+a:hover {
+  @apply text-sky-600;
+}
+
+.main-content {
+  @apply mt-[4.1rem];
+}
+
+.main-content,
+.main-container {
+  @apply px-3 sm:px-12 md:px-16 lg:px-20;
+}
+
+footer {
+  @apply mt-auto;
+}

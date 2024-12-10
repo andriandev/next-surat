@@ -1,0 +1,23 @@
+{
+  "name": "next-surat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.0.4",
+    "nextjs-toploader": "^3.7.15",
+    "react": "^19.0.0",
+    "react-dom": "19.0.0",
+    "react-toastify": "^10.0.6"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "^3.4.16"
+  }
+}
